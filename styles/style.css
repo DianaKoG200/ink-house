@@ -715,3 +715,12 @@ footer .container {
         border: 1px solid #C3D1C6;
     }
 }
+
+/* Оптимизация загрузки изображений */
+.main-img,
+.back-img,
+.card img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
