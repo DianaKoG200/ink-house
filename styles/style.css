@@ -22,7 +22,12 @@ body {
     font-weight: 500;
 }
 
-a, a:hover, a:active, a:focus, a:visited {
+a, 
+a:link,
+a:hover, 
+a:active, 
+a:focus, 
+a:visited {
     color: inherit; /* сохраняет исходный цвет */
     text-decoration: none !important; /* убирает подчеркивание */
     background-color: transparent; /* убирает фон */
@@ -676,7 +681,8 @@ footer .container {
 }
 
 .one-list .color {
-    color: #86928B !important;    
+    color: #86928B !important;  
+    text-decoration: none;  
 }
 
 .all-list .rights {
