@@ -666,7 +666,7 @@ footer .container {
     display: flex;
     flex-direction: column;
     list-style: none;
-    color: #86928B;
+    color: #86928B !important;
     font-size: clamp(16px, 2vw, 18px);
     line-height: 150%;
     height: 100%;
