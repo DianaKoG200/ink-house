@@ -675,6 +675,10 @@ footer .container {
     cursor: pointer;
 }
 
+.one-list .color {
+    color: #86928B !important;    
+}
+
 .all-list .rights {
     font-size: 12px;
     line-height: 120%;
